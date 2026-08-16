@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smile Haven • Your Smile, Your Story</title>
+
+    <link rel="stylesheet" type="text/css" href="https://julius-altmann-3333.github.io/dental_landingpage/style.css">
+
+    <!-- =========================================================
+         BOOTSTRAP 5
+         ========================================================= -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- =========================================================
+         FONT AWESOME
+         ========================================================= -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+
+    <!-- =========================================================
+         GOOGLE FONTS
+         ========================================================= -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     NAVBAR
+     ========================================================= -->
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top shadow-sm">
+
+    <div class="container">
+
+        <!-- Logo -->
+        <a href="#" class="navbar-brand d-flex align-items-center gap-3">
+
+            <div class="logo-icon">
+                <i class="fa-solid fa-tooth"></i>
+            </div>
+
+            <span class="logo-font fw-bold fs-3">
+                Smile Haven
+            </span>
+
+        </a>
+
+
+        <!-- Mobile Toggle -->
+        <button
+            class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <i class="fa-solid fa-bars fs-4 text-gray-700"></i>
+        </button>
+
+
+        <!-- Navigation -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav mx-auto gap-lg-3 fw-medium">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">
+                        <span data-lang="en">Services</span>
+                        <span data-lang="de">Leistungen</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        <span data-lang="en">About Us</span>
+                        <span data-lang="de">Über uns</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">
+                        <span data-lang="en">Reviews</span>
+                        <span data-lang="de">Bewertungen</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        <span data-lang="en">Contact</span>
+                        <span data-lang="de">Kontakt</span>
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-3 mt-3 mt-lg-0">
+
+                <!-- WhatsApp -->
+                <a
+                    href="https://wa.me/15551234567"
+                    target="_blank"
+                    class="whatsapp-link d-flex align-items-center gap-2 text-decoration-none"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    <span data-lang="en">WhatsApp</span>
+                    <span data-lang="de">WhatsApp</span>
+                </a>
+
+
+                <!-- Language -->
+                <button
+                    id="languageSwitch"
+                    type="button"
+                    class="btn btn-outline-warning language-switch"
+                >
+                    Deutsch
+                </button>
+
+
+                <!-- Appointment -->
+                <button
+                    type="button"
+                    class="btn btn-yellow rounded-pill px-4 py-2"
+                    onclick="scrollToSection('appointment')"
+                >
+                    <i class="fa-solid fa-calendar me-2"></i>
+
+                    <span data-lang="en">Book Appointment</span>
+                    <span data-lang="de">Termin buchen</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+
+<header id="home" class="hero-bg">
+
+    <div class="container position-relative">
+
+        <div class="row align-items-center g-5">
+
+            <!-- Left -->
+            <div class="col-12 col-lg-7">
+
+                <div class="hero-badge mb-4">
+
+                    <span class="status-dot"></span>
+
+                    <span data-lang="en">
+                        OPEN 7 DAYS A WEEK
+                    </span>
+
+                    <span data-lang="de">
+                        7 TAGE DIE WOCHE GEÖFFNET
+                    </span>
+
+                </div>
+
+
+                <h1 class="logo-font fw-bold hero-title mb-4">
+
+                    <span data-lang="en">
+                        Your Smile.<br>
+                        Our Passion.
+                    </span>
+
+                    <span data-lang="de">
+                        Ihr Lächeln.<br>
+                        Unsere Leidenschaft.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description mb-5">
+
+                    <span data-lang="en">
+                        Gentle, modern dentistry in a warm and welcoming
+                        environment. We make your visit as comfortable
+                        as possible.
+                    </span>
+
+                    <span data-lang="de">
+                        Moderne, einfühlsame Zahnmedizin in einer warmen
+                        und freundlichen Atmosphäre. Wir sorgen dafür,
+                        dass Ihr Besuch so angenehm wie möglich wird.
+                    </span>
+
+                </p>
+
+
+                <div class="d-flex flex-wrap gap-3 hero-buttons mb-5">
+
+                    <button
+                        type="button"
+                        class="btn cta-button rounded-pill px-4 px-md-5 py-3 py-md-4 fs-5"
+                        onclick="scrollToSection('appointment')"
+                    >
+                        <i class="fa-solid fa-calendar-check me-2"></i>
+
+                        <span data-lang="en">
+                            BOOK YOUR SPOT
+                        </span>
+
+                        <span data-lang="de">
+                            TERMIN BUCHEN
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="btn hero-outline-button rounded-pill px-4 px-md-5 py-3 py-md-4 fs-5"
+                        onclick="scrollToSection('about')"
+                    >
+                        <span data-lang="en">
+                            MEET THE TEAM
+                        </span>
+
+                        <span data-lang="de">
+                            UNSER TEAM
+                        </span>
+                    </button>
+
+                </div>
+
+
+                <!-- Reviews -->
+                <div class="d-flex align-items-center gap-4 pt-2">
+
+                    <div class="d-flex">
+
+                        <div
+                            class="bg-white rounded-4 border border-2 border-white d-flex align-items-center justify-content-center"
+                            style="width:40px;height:40px;margin-right:-12px;"
+                        >
+                            👩‍⚕️
+                        </div>
+
+                        <div
+                            class="bg-white rounded-4 border border-2 border-white d-flex align-items-center justify-content-center"
+                            style="width:40px;height:40px;margin-right:-12px;"
+                        >
+                            🦷
+                        </div>
+
+                        <div
+                            class="bg-white rounded-4 border border-2 border-white d-flex align-items-center justify-content-center"
+                            style="width:40px;height:40px;"
+                        >
+                            🌟
+                        </div>
+
+                    </div>
+
+
+                    <div class="small">
+
+                        <div class="fw-medium">
+                            4.98 • 1,284 reviews
+                        </div>
+
+                        <div class="text-white-50">
+                            <span data-lang="en">
+                                on Google &amp; Trustpilot
+                            </span>
+
+                            <span data-lang="de">
+                                auf Google &amp; Trustpilot
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Doctor -->
+            <div class="col-lg-5 d-none d-lg-flex justify-content-end">
+
+                <div class="floating-doctor position-relative">
+
+                    <img
+                        src="https://picsum.photos/id/1011/800/800"
+                        alt="Dr. Emily Chen"
+                        class="doctor-image shadow-lg"
+                    >
+
+                    <div class="doctor-card">
+
+                        <div class="d-flex align-items-center gap-3">
+
+                            <div class="fs-1">
+                                👩‍⚕️
+                            </div>
+
+                            <div>
+
+                                <p class="fw-semibold text-gray-900 mb-1">
+                                    Dr. Emily Chen
+                                </p>
+
+                                <p class="small text-gray-500 mb-0">
+
+                                    <span data-lang="en">
+                                        Founder &amp; Lead Dentist
+                                    </span>
+
+                                    <span data-lang="de">
+                                        Gründerin &amp; leitende Zahnärztin
+                                    </span>
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Scroll -->
+    <div class="scroll-indicator">
+
+        <span data-lang="en">
+            SCROLL TO EXPLORE
+        </span>
+
+        <span data-lang="de">
+            ZUM ENTDECKEN SCROLLEN
+        </span>
+
+        <div>
+            <i class="fa-solid fa-chevron-down mt-2"></i>
+        </div>
+
+    </div>
+
+
+    <!-- Trust Bar -->
+    <div class="trust-bar py-3">
+
+        <div class="container">
+
+            <div class="row justify-content-center text-center g-2 g-md-4 small fw-medium">
+
+                <div class="col-6 col-md-auto trust-item">
+                    <i class="fa-solid fa-shield-halved me-1"></i>
+
+                    <span data-lang="en">SECURE</span>
+                    <span data-lang="de">SICHER</span>
+                </div>
+
+                <div class="col-6 col-md-auto trust-item">
+                    <i class="fa-solid fa-stethoscope me-1"></i>
+
+                    <span data-lang="en">ADA ACCREDITED</span>
+                    <span data-lang="de">ADA AKKREDITIERT</span>
+                </div>
+
+                <div class="col-6 col-md-auto trust-item">
+                    <i class="fa-solid fa-heart me-1"></i>
+
+                    <span data-lang="en">CARING TEAM</span>
+                    <span data-lang="de">HERZLICHES TEAM</span>
+                </div>
+
+                <div class="col-6 col-md-auto trust-item">
+                    <i class="fa-solid fa-clock me-1"></i>
+
+                    <span data-lang="en">7 DAYS</span>
+                    <span data-lang="de">7 TAGE</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     SERVICES
+     ========================================================= -->
+
+<section id="services" class="section-padding bg-gray-50">
+
+    <div class="container">
+
+        <div class="text-center mb-5 pb-2">
+
+            <span class="badge rounded-pill px-3 py-2 bg-warning-subtle text-yellow-700 fw-semibold">
+
+                <span data-lang="en">
+                    OUR SERVICES
+                </span>
+
+                <span data-lang="de">
+                    UNSERE LEISTUNGEN
+                </span>
+
+            </span>
+
+
+            <h2 class="display-5 fw-bold mt-3">
+
+                <span data-lang="en">
+                    Everything You Need for a Healthy Smile
+                </span>
+
+                <span data-lang="de">
+                    Alles für ein gesundes Lächeln
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- SERVICE 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            🦷
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Cosmetic Dentistry
+                            </span>
+
+                            <span data-lang="de">
+                                Ästhetische Zahnmedizin
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                Veneers, whitening, Invisalign, and full smile
+                                makeovers. Beautiful results that last.
+                            </span>
+
+                            <span data-lang="de">
+                                Veneers, Zahnaufhellung, Invisalign und
+                                komplette Smile Makeovers. Schöne Ergebnisse,
+                                die lange halten.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICE 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            🦷
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Orthodontics
+                            </span>
+
+                            <span data-lang="de">
+                                Kieferorthopädie
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                Clear aligners, braces, and expert treatment
+                                for perfect alignment. Start your smile journey today.
+                            </span>
+
+                            <span data-lang="de">
+                                Transparente Zahnschienen, Zahnspangen und
+                                professionelle Behandlungen für eine perfekte
+                                Zahnstellung.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICE 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            🧠
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Sedation Dentistry
+                            </span>
+
+                            <span data-lang="de">
+                                Sedierungszahnmedizin
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                All your dental needs under safe, relaxing
+                                sedation. No more fear — just comfort.
+                            </span>
+
+                            <span data-lang="de">
+                                Zahnbehandlungen unter sicherer und entspannter
+                                Sedierung. Keine Angst – nur Komfort.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICE 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            🦷
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Emergency Dental Care
+                            </span>
+
+                            <span data-lang="de">
+                                Zahnärztlicher Notdienst
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                Same-day appointments for tooth pain, broken
+                                teeth, and infections. We are here for you.
+                            </span>
+
+                            <span data-lang="de">
+                                Termine am selben Tag bei Zahnschmerzen,
+                                abgebrochenen Zähnen oder Infektionen.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICE 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            👀
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Digital Smile Design
+                            </span>
+
+                            <span data-lang="de">
+                                Digital Smile Design
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                3D planning and virtual try-ons so you see
+                                your new smile before treatment.
+                            </span>
+
+                            <span data-lang="de">
+                                3D-Planung und virtuelle Vorschau, damit Sie
+                                Ihr neues Lächeln bereits vor der Behandlung sehen.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SERVICE 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="service-card bg-white">
+
+                    <div class="service-top"></div>
+
+                    <div class="card-body p-4 p-lg-5">
+
+                        <div class="service-icon mb-4">
+                            🧼
+                        </div>
+
+                        <h3 class="h4 fw-semibold mb-3">
+
+                            <span data-lang="en">
+                                Preventive Care
+                            </span>
+
+                            <span data-lang="de">
+                                Vorsorge
+                            </span>
+
+                        </h3>
+
+                        <p class="text-gray-600 lh-lg">
+
+                            <span data-lang="en">
+                                Cleanings, sealants, fluoride treatments,
+                                and routine check-ups to keep your smile healthy.
+                            </span>
+
+                            <span data-lang="de">
+                                Professionelle Zahnreinigung, Versiegelungen,
+                                Fluoridbehandlungen und regelmäßige Kontrollen.
+                            </span>
+
+                        </p>
+
+                        <div class="service-link mt-4">
+                            <span data-lang="en">Learn more</span>
+                            <span data-lang="de">Mehr erfahren</span>
+
+                            <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+     ========================================================= -->
+
+<section id="about" class="section-padding">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-12 col-md-6">
+
+                <img
+                    src="https://picsum.photos/id/1015/800/900"
+                    alt="Our Clinic Interior"
+                    class="about-image"
+                >
+
+            </div>
+
+
+            <div class="col-12 col-md-6">
+
+                <span class="text-yellow-500 fw-semibold fs-5">
+                    <span data-lang="en">SINCE 2018</span>
+                    <span data-lang="de">SEIT 2018</span>
+                </span>
+
+
+                <h2 class="about-title fw-bold mt-3 mb-4">
+
+                    <span data-lang="en">
+                        Dr. Emily Chen and her team
+                    </span>
+
+                    <span data-lang="de">
+                        Dr. Emily Chen und ihr Team
+                    </span>
+
+                </h2>
+
+
+                <p class="lead text-gray-600 mb-5">
+
+                    <span data-lang="en">
+                        We believe every smile deserves the same care
+                        we would give our own family.
+                    </span>
+
+                    <span data-lang="de">
+                        Wir glauben, dass jedes Lächeln die gleiche
+                        Fürsorge verdient, die wir unserer eigenen Familie
+                        schenken würden.
+                    </span>
+
+                </p>
+
+
+                <div class="row g-4 mb-5">
+
+                    <div class="col-12 col-sm-6">
+
+                        <div class="fw-semibold text-gray-900">
+                            Dr. Emily Chen
+                        </div>
+
+                        <div class="small text-gray-500">
+                            <span data-lang="en">
+                                Doctor of Dental Surgery • 18 years experience
+                            </span>
+
+                            <span data-lang="de">
+                                Zahnärztin • 18 Jahre Erfahrung
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 col-sm-6">
+
+                        <div class="fw-semibold text-gray-900">
+
+                            <span data-lang="en">
+                                10+ Staff
+                            </span>
+
+                            <span data-lang="de">
+                                10+ Mitarbeiter
+                            </span>
+
+                        </div>
+
+                        <div class="small text-gray-500">
+
+                            <span data-lang="en">
+                                Hygienists • Reception • Tech
+                            </span>
+
+                            <span data-lang="de">
+                                Prophylaxe • Empfang • Technik
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    onclick="scrollToSection('appointment')"
+                    class="btn cta-button rounded-pill px-4 px-lg-5 py-3 fs-5"
+                >
+
+                    <i class="fa-solid fa-user-doctor me-2"></i>
+
+                    <span data-lang="en">
+                        MEET DR. EMILY
+                    </span>
+
+                    <span data-lang="de">
+                        DR. EMILY KENNENLERNEN
+                    </span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     REVIEWS
+     ========================================================= -->
+
+<section id="reviews" class="section-padding bg-gray-50">
+
+    <div class="container">
+
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 mb-5">
+
+            <div>
+
+                <span class="text-yellow-500 small fw-semibold text-uppercase"
+                      style="letter-spacing:3px;">
+
+                    <span data-lang="en">
+                        HAPPY SMILES
+                    </span>
+
+                    <span data-lang="de">
+                        GLÜCKLICHE LÄCHELN
+                    </span>
+
+                </span>
+
+
+                <h2 class="display-5 fw-bold mt-2 mb-0">
+
+                    <span data-lang="en">
+                        Real smiles, real stories
+                    </span>
+
+                    <span data-lang="de">
+                        Echte Lächeln, echte Geschichten
+                    </span>
+
+                </h2>
+
+            </div>
+
+
+            <a
+                href="#"
+                class="text-yellow-500 fw-medium text-decoration-none"
+                onclick="showDemoMessage(event)"
+            >
+
+                <span data-lang="en">
+                    Read all reviews
+                </span>
+
+                <span data-lang="de">
+                    Alle Bewertungen lesen
+                </span>
+
+                <i class="fa-solid fa-arrow-right ms-2"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- REVIEW 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="review-card bg-white">
+
+                    <div class="review-stars mb-4">
+                        ★★★★☆
+                    </div>
+
+                    <p class="fst-italic text-gray-600">
+
+                        <span data-lang="en">
+                            "Dr. Chen is an absolute angel. I was so nervous
+                            but she made me feel completely at ease.
+                            My smile is now perfect!"
+                        </span>
+
+                        <span data-lang="de">
+                            „Dr. Chen ist einfach wunderbar. Ich war sehr
+                            nervös, aber sie hat mir sofort die Angst genommen.
+                            Mein Lächeln ist jetzt perfekt!“
+                        </span>
+
+                    </p>
+
+
+                    <div class="d-flex align-items-center gap-3 mt-4 pt-2">
+
+                        <div class="review-avatar avatar-rose"></div>
+
+                        <div>
+
+                            <div class="fw-semibold">
+                                Sarah M.
+                            </div>
+
+                            <div class="small text-gray-500">
+
+                                <span data-lang="en">
+                                    Downtown • 3 months ago
+                                </span>
+
+                                <span data-lang="de">
+                                    Innenstadt • vor 3 Monaten
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- REVIEW 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="review-card bg-white">
+
+                    <div class="review-stars mb-4">
+                        ★★★★★
+                    </div>
+
+                    <p class="fst-italic text-gray-600">
+
+                        <span data-lang="en">
+                            "The entire team is incredibly professional and kind.
+                            My daughter had her first check-up and left smiling
+                            (literally)."
+                        </span>
+
+                        <span data-lang="de">
+                            „Das gesamte Team ist unglaublich professionell
+                            und herzlich. Meine Tochter hatte ihre erste
+                            Untersuchung und verließ die Praxis lächelnd.“
+                        </span>
+
+                    </p>
+
+
+                    <div class="d-flex align-items-center gap-3 mt-4 pt-2">
+
+                        <div class="review-avatar avatar-sky"></div>
+
+                        <div>
+
+                            <div class="fw-semibold">
+                                Marcus T.
+                            </div>
+
+                            <div class="small text-gray-500">
+
+                                <span data-lang="en">
+                                    Westlake • 2 weeks ago
+                                </span>
+
+                                <span data-lang="de">
+                                    Westlake • vor 2 Wochen
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- REVIEW 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="review-card bg-white">
+
+                    <div class="review-stars mb-4">
+                        ★★★★★
+                    </div>
+
+                    <p class="fst-italic text-gray-600">
+
+                        <span data-lang="en">
+                            "I had veneers done and the results are breathtaking.
+                            The digital planning was flawless. Best decision ever."
+                        </span>
+
+                        <span data-lang="de">
+                            „Ich habe Veneers bekommen und das Ergebnis ist
+                            unglaublich. Die digitale Planung war perfekt.
+                            Die beste Entscheidung überhaupt.“
+                        </span>
+
+                    </p>
+
+
+                    <div class="d-flex align-items-center gap-3 mt-4 pt-2">
+
+                        <div class="review-avatar avatar-amber"></div>
+
+                        <div>
+
+                            <div class="fw-semibold">
+                                Jennifer L.
+                            </div>
+
+                            <div class="small text-gray-500">
+
+                                <span data-lang="en">
+                                    Beverly Hills • 1 month ago
+                                </span>
+
+                                <span data-lang="de">
+                                    Beverly Hills • vor 1 Monat
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     APPOINTMENT
+     ========================================================= -->
+
+<section id="appointment" class="appointment-section section-padding">
+
+    <div class="container">
+
+        <div class="mx-auto text-center" style="max-width:850px;">
+
+            <div class="appointment-badge mb-4">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+                <span data-lang="en">
+                    LIMITED SLOTS AVAILABLE THIS MONTH
+                </span>
+
+                <span data-lang="de">
+                    NUR BEGRENZTE TERMINE DIESEN MONAT
+                </span>
+
+            </div>
+
+
+            <h2 class="appointment-title fw-bold mb-4">
+
+                <span data-lang="en">
+                    Ready for a new smile?
+                </span>
+
+                <span data-lang="de">
+                    Bereit für ein neues Lächeln?
+                </span>
+
+            </h2>
+
+
+            <p class="fs-4 mb-5">
+
+                <span data-lang="en">
+                    Fill out the form or call us today.
+                    We’ll get you booked in minutes.
+                </span>
+
+                <span data-lang="de">
+                    Füllen Sie das Formular aus oder rufen Sie uns an.
+                    Wir vereinbaren Ihren Termin in wenigen Minuten.
+                </span>
+
+            </p>
+
+
+            <form id="appointment-form">
+
+                <div class="row g-3 mb-3">
+
+                    <div class="col-12 col-md-6">
+
+                        <input
+                            type="text"
+                            class="form-control appointment-input"
+                            required
+                            data-placeholder-en="Your Name"
+                            data-placeholder-de="Ihr Name"
+                        >
+
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+
+                        <input
+                            type="tel"
+                            class="form-control appointment-input"
+                            required
+                            data-placeholder-en="Phone Number"
+                            data-placeholder-de="Telefonnummer"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="mb-3">
+
+                    <input
+                        type="email"
+                        class="form-control appointment-input"
+                        data-placeholder-en="Email (optional)"
+                        data-placeholder-de="E-Mail (optional)"
+                    >
+
+                </div>
+
+
+                <div class="row g-3">
+
+                    <div class="col-12 col-md-4">
+
+                        <input
+                            type="date"
+                            class="form-control appointment-input"
+                        >
+
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+
+                        <select
+                            class="form-select appointment-input"
+                            id="appointment-time"
+                        >
+
+                            <option
+                                value=""
+                                data-lang="en"
+                            >
+                                Preferred Time
+                            </option>
+
+                            <option
+                                value=""
+                                data-lang="de"
+                            >
+                                Wunschzeit
+                            </option>
+
+                            <option>9:00 AM</option>
+                            <option>10:30 AM</option>
+                            <option>1:00 PM</option>
+                            <option>2:30 PM</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+
+                        <button
+                            type="submit"
+                            class="btn btn-dark-custom w-100 py-3"
+                            style="min-height:62px;"
+                        >
+
+                            <span data-lang="en">
+                                SEND &amp; BOOK
+                            </span>
+
+                            <span data-lang="de">
+                                SENDEN &amp; BUCHEN
+                            </span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+
+            <!-- Contact -->
+            <div class="d-flex flex-wrap justify-content-center gap-4 gap-md-5 mt-5">
+
+                <a
+                    href="tel:+15551234567"
+                    class="text-decoration-none text-dark d-flex align-items-center gap-2"
+                >
+                    <i class="fa-solid fa-phone fs-5"></i>
+                    <span class="fw-medium">
+                        (555) 123-4567
+                    </span>
+                </a>
+
+
+                <a
+                    href="https://wa.me/15551234567"
+                    target="_blank"
+                    class="text-decoration-none text-dark d-flex align-items-center gap-2"
+                >
+                    <i class="fa-brands fa-whatsapp fs-4"></i>
+
+                    <span data-lang="en">
+                        WhatsApp
+                    </span>
+
+                    <span data-lang="de">
+                        WhatsApp
+                    </span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer id="contact" class="footer py-5 py-lg-6">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+
+            <!-- Column 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+
+                <div class="d-flex align-items-center gap-3 footer-logo mb-4">
+
+                    <i class="fa-solid fa-tooth text-yellow-400"></i>
+
+                    <span class="logo-font fw-bold">
+                        Smile Haven
+                    </span>
+
+                </div>
+
+
+                <p class="footer-text small">
+
+                    <span data-lang="en">
+                        A warm, modern dental home for the whole family.
+                    </span>
+
+                    <span data-lang="de">
+                        Eine moderne und herzliche Zahnarztpraxis
+                        für die ganze Familie.
+                    </span>
+
+                </p>
+
+
+                <div class="d-flex gap-4 fs-4 mt-4">
+
+                    <a href="#" class="footer-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="footer-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-6 col-lg-2">
+
+                <div class="footer-heading mb-4">
+
+                    <span data-lang="en">
+                        Quick Links
+                    </span>
+
+                    <span data-lang="de">
+                        Schnellzugriff
+                    </span>
+
+                </div>
+
+
+                <div class="d-flex flex-column gap-3 small">
+
+                    <a href="#" class="footer-link">
+
+                        <span data-lang="en">
+                            Emergency Care
+                        </span>
+
+                        <span data-lang="de">
+                            Notfallbehandlung
+                        </span>
+
+                    </a>
+
+                    <a href="#" class="footer-link">
+                        Invisalign®
+                    </a>
+
+                    <a href="#" class="footer-link">
+
+                        <span data-lang="en">
+                            Cosmetic Treatments
+                        </span>
+
+                        <span data-lang="de">
+                            Ästhetische Behandlungen
+                        </span>
+
+                    </a>
+
+                    <a href="#about" class="footer-link">
+
+                        <span data-lang="en">
+                            Our Doctors
+                        </span>
+
+                        <span data-lang="de">
+                            Unsere Ärzte
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Column 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+
+                <div class="footer-heading mb-4">
+
+                    <span data-lang="en">
+                        Hours
+                    </span>
+
+                    <span data-lang="de">
+                        Öffnungszeiten
+                    </span>
+
+                </div>
+
+
+                <div class="small footer-text">
+
+                    <div class="d-flex justify-content-between gap-3 mb-3">
+
+                        <span data-lang="en">
+                            Monday – Friday
+                        </span>
+
+                        <span data-lang="de">
+                            Montag – Freitag
+                        </span>
+
+                        <span class="text-white">
+                            9:00 – 18:00
+                        </span>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between gap-3 mb-3">
+
+                        <span data-lang="en">
+                            Saturday
+                        </span>
+
+                        <span data-lang="de">
+                            Samstag
+                        </span>
+
+                        <span class="text-white">
+                            9:00 – 16:00
+                        </span>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-between gap-3">
+
+                        <span data-lang="en">
+                            Sunday
+                        </span>
+
+                        <span data-lang="de">
+                            Sonntag
+                        </span>
+
+                        <span class="text-white">
+
+                            <span data-lang="en">
+                                Closed
+                            </span>
+
+                            <span data-lang="de">
+                                Geschlossen
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Column 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+
+                <div class="footer-heading mb-4">
+
+                    <span data-lang="en">
+                        Contact Us
+                    </span>
+
+                    <span data-lang="de">
+                        Kontakt
+                    </span>
+
+                </div>
+
+
+                <div class="d-flex flex-column gap-4">
+
+                    <div class="d-flex gap-3">
+
+                        <i class="fa-solid fa-map-marker-alt text-yellow-400 mt-1"></i>
+
+                        <div class="small footer-text">
+
+                            123 Main Street<br>
+                            Beverly Hills, CA 90210
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex gap-3">
+
+                        <i class="fa-solid fa-phone text-yellow-400 mt-1"></i>
+
+                        <a
+                            href="tel:+15551234567"
+                            class="footer-link small"
+                        >
+                            (555) 123-4567
+                        </a>
+
+                    </div>
+
+
+                    <a
+                        href="mailto:hello@smilehaven.com"
+                        class="footer-link small"
+                    >
+                        hello@smilehaven.com
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Bottom -->
+        <div class="border-top footer-divider mt-5 pt-4">
+
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-6">
+
+                    <p class="small footer-text mb-0">
+
+                        <span data-lang="en">
+                            © 2026 Smile Haven Dental. All rights reserved.
+                        </span>
+
+                        <span data-lang="de">
+                            © 2026 Smile Haven Dental. Alle Rechte vorbehalten.
+                        </span>
+
+                    </p>
+
+                </div>
+
+
+                <div class="col-12 col-md-6">
+
+                    <div class="d-flex justify-content-md-end gap-4 mt-3 mt-md-0 small">
+
+                        <a href="#" class="footer-link">
+
+                            <span data-lang="en">
+                                Privacy
+                            </span>
+
+                            <span data-lang="de">
+                                Datenschutz
+                            </span>
+
+                        </a>
+
+                        <a href="#" class="footer-link">
+
+                            <span data-lang="en">
+                                Terms
+                            </span>
+
+                            <span data-lang="de">
+                                AGB
+                            </span>
+
+                        </a>
+
+                        <a href="#" class="footer-link">
+
+                            <span data-lang="en">
+                                Accessibility
+                            </span>
+
+                            <span data-lang="de">
+                                Barrierefreiheit
+                            </span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING WHATSAPP
+     ========================================================= -->
+
+<a
+    href="https://wa.me/15551234567"
+    target="_blank"
+    class="floating-whatsapp"
+    aria-label="WhatsApp"
+>
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
